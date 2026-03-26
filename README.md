@@ -3,53 +3,52 @@ POCRASTINATION TRACKER (Python Project)
 The Procrastination Tracker is a command-line based Python application that helps users manage their daily tasks and track procrastination behavior. In today’s fast-paced world, people often delay their work due to distractions, lack of motivation, or poor time management. This project is designed to address that issue by providing a simple and effective way to monitor tasks and deadlines.
 
 This system allows users to:
-✔️ Add tasks with deadlines
-✔️ Track completion status
-✔️ Identify delayed or late tasks
-✔️ Analyze productivity habits
+ Add tasks with deadlines
+ Track completion status
+Identify delayed or late tasks
+Analyze productivity habits
 The project is especially useful for students who want to improve discipline and complete assignments on time.
 2. Objectives
 The main objectives of this project are:
-➤ To develop a simple task management system
-➤ To help users identify procrastination patterns
-➤ To improve time management skills
-➤ To provide a user-friendly interface using Python
-➤ To encourage productivity and discipline
+To develop a simple task management system To help users identify procrastination patterns
+To improve time management skills
+ To provide a user-friendly interface using Python
+ To encourage productivity and discipline
 3. Key Features
-🔹 Task Management
-✔️ Add new tasks with deadlines
-✔️ Store task details (name, deadline, status)
-🔹 Task Completion
-✔️ Mark tasks as completed
-✔️ Automatically store completion date
-🔹 Task Viewing
-✔️ Display all tasks in an organized format
-✔️ Show status: Pending / Completed
-🔹 Procrastination Detection
+ Task Management
+ Add new tasks with deadlines
+ Store task details (name, deadline, status)
+ Task Completion
+ Mark tasks as completed
+ Automatically store completion date
+ Task Viewing
+ Display all tasks in an organized format
+ Show status: Pending / Completed
+ Procrastination Detection
  Identify tasks not completed before deadline
  Detect tasks completed after deadline
-🔹 User-Friendly Interface
-✔️ Simple menu-driven system
-✔️ Easy navigation
+ User-Friendly Interface
+ Simple menu-driven system
+ Easy navigation
 4.System Requirements
-✔️ Python 3.x installed
-✔️ Basic knowledge of running Python programs
-✔️ Any text editor (VS Code / Notepad / PyCharm)
+Python 3.x installed
+ Basic knowledge of running Python programs
+ Any text editor (VS Code / Notepad / PyCharm)
 5.Working of the Project
 The project works using a simple list-based data structure:
-➤ Step 1: Add Task
+ Step 1: Add Task
 User enters:
 Task name
 Deadline (YYYY-MM-DD)
-➤ Step 2: Store Data
+ Step 2: Store Data
 The program stores task details in a list of dictionaries.
 ➤ Step 3: Complete Task
 User selects a task and marks it as completed.
 The system records the completion date.
 ➤ Step 4: Analyze Procrastination
- If task is not completed and deadline has passed → ❌ Procrastinated
- If task is completed after deadline → ⏰ Late
-If task is completed on time → ✅ Good productivity
+ If task is not completed and deadline has passed →  Procrastinated
+ If task is completed after deadline →  Late
+If task is completed on time →  Good productivity
 6. Example Output
 === Procrastination Tracker ===
 1. Add Task
@@ -65,8 +64,8 @@ If task is completed on time → ✅ Good productivity
  Late completion: Study Python
 8.. Project Structure
  Procrastination Tracker
-  📄 procrastination_tracker.py   → Main program file
-   📄 README.md                    → Documentation file
+   procrastination_tracker.py   → Main program file
+   README.md                    → Documentation file
  9. Advantages
  Simple and easy to use
  Helps improve productivity
